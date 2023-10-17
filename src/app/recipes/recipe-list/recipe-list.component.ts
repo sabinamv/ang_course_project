@@ -10,8 +10,8 @@ import { RecipeService } from '../recipe.service';
 export class RecipeListComponent implements OnInit{
  // @Output() recipeWasSelected = new EventEmitter<Recipe>();
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'Description', 'https://www.howtocook.recipes/wp-content/uploads/2021/05/Ratatouille-recipe.jpg'),
-    new Recipe('Second Recipe', 'Bla bla bla', 'https://www.howtocook.recipes/wp-content/uploads/2021/05/Ratatouille-recipe.jpg')
+    new Recipe('A Test Recipe', 'Description', 'https://www.howtocook.recipes/wp-content/uploads/2021/05/Ratatouille-recipe.jpg',[]),
+    new Recipe('Second Recipe', 'Bla bla bla', 'https://www.howtocook.recipes/wp-content/uploads/2021/05/Ratatouille-recipe.jpg',[])
 
   ];
 
